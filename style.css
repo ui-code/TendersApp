@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+img.menu-apple-icon {
+    filter: brightness(150%);
+}
+
+#mobile-menu>ul>li.active {
+    position: relative;
+}
+
+#mobile-menu>ul>li.active::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 25px;
+    background: #fd9403;
+    left: -32px;
+}
+
+#mobile-menu>ul>li.active>a>* {
+    color: white;
+}
+
+#mobile-menu>ul>li>a>* {
+    transition: all .3s ease;
+}
+
+#mobile-menu>ul>li:hover a>* {
+    color: white;
+}
+
+.app-bg-gray {
+    background: #F1F5F9;
+}
+
+.app-color-white {
+    color: #D3FBFC;
+}
+
+.app-color-light-white {
+    color: rgba(211, 251, 252, 0.5);
+}
+
+.app-bg-light-white {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.app-bg-yellow {
+    background: #FD9403;
+}
+
+.app-color-yellow {
+    color: #FD9403;
+}
+
+.app-bg-red {
+    background: #F05741;
+}
+
+.app-text-xs {
+    font-size: 0.65rem;
+}
+
+.app-color-black {
+    color: #565C5E;
+}
+
+.app-color-gray {
+    color: #BDBCBF;
+}
+
+.app-shadow {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+}
